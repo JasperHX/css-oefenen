@@ -1,0 +1,47 @@
+*   {
+    font-family: Poppins, Arial, sans-serif;
+    background-color: #DFD9E2;
+    color: #535865;
+}
+
+h1, h2, h3    {
+    color: #865B9A;
+}
+
+#introduction   {
+    font-weight: 500;
+    color: #535865;
+}
+
+#space  {
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.intro  {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+p   {
+    font-weight: 300;
+}
+
+.vita   {
+    font-weight: 300;
+    list-style-type: square;
+}
+
+.button  {
+    color: white;
+    background-color: #865B9A;
+    transition-duration: 0.4s;
+    font-size: 20px;
+}
+
+.button:hover    {
+    color: white;
+    background-color: #4CAF50;
+}
