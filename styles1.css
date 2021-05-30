@@ -1,95 +1,52 @@
-* {
-    font-family: "Lucida Grande", sans-serif;
-}
-
-body    {
+body {
+    font-family: "Lucida Grande", serif;
     background-color: hsl(74, 95%, 93%);
 }
 
 header  {
-    border: dashed black;
+    border: 3px dashed hsl(63, 56%, 10%);
     background-color: hsl(63, 56%, 38%);
-    color: white;
+    color: #fff;
+    height: 80px;
+    padding: 16px;
     text-align: center;
-    position: relative;
-    top: -8px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 main    {
-    background-color: hsl(74, 95%, 93%);
-    border: solid thin hsl(63, 56%, 10%);
-    margin-top: -7px;
-    margin-bottom: 400px;
-    height: 900px;
+    position: relative;
+    border: 3px double hsl(63, 56%, 10%);
+    margin-top: 16px;
+    padding: 16px;
 }
 
-.article1 {
-    /*box-sizing: border-box;*/
-    border: solid hsl(63, 56%, 38%);
-    background-color: hsl(63, 48%, 62%);
-    margin: 40px 40px -20px 40px;
-    padding-left: 15px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.article2   {
-    box-sizing: border-box;
-    border: solid hsl(63, 56%, 38%);
-    background-color: hsl(63, 48%, 62%);
-    margin: 40px 40px -20px 40px;
-    padding-left: 15px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.article3   {
-    box-sizing: border-box;
-    border: solid hsl(63, 56%, 38%);
-    background-color: hsl(63, 48%, 62%);
-    margin: 40px 40px -20px 40px;
-    padding-left: 15px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.article4   {
-    box-sizing: border-box;
-    border: solid hsl(63, 56%, 38%);
-    background-color: hsl(63, 48%, 62%);
-    margin: 40px 40px -20px 40px;
-    padding-left: 15px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.article5  {
-    box-sizing: border-box;
-    border: solid hsl(63, 56%, 38%);
-    background-color: hsl(63, 48%, 62%);
-    margin: 40px 40px -20px 40px;
-    padding-left: 15px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+article {
+    border: 2px solid hsl(63, 56%, 38%);
+    background-color: hsl(63, 56%, 80%);;
+    border-radius: 8px 8px 0 0;
+    margin: 16px;
+    padding: 16px;
 }
 
 .circle-one {
     display: inline-block;
     background-color: hsl(23, 100%, 65%);
     border-radius: 50%;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     margin-right: 30px;
     margin-bottom: 20px;
-    filter: drop-shadow(8px 8px 10px gray);
+    filter: drop-shadow(2px 2px 5px hsl(23, 100%, 30%));
 }
 
 .circle-two {
     display: inline-block;
     background-color: hsl(23, 100%, 65%);
     border-radius: 50%;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     margin-bottom: 20px;
-    box-shadow: 8px 8px 10px black;
+    filter: drop-shadow(5px 5px 2px hsl(0, 0%, 0%));
 }
